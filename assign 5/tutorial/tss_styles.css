@@ -86,12 +86,26 @@ nav > ul{
 
 nav > ul > li.newgroup {
    margin-top: 20px;
+
+}
+nav > ul > li > a:link, nav > ul > li > a:visted {
+   color: rgb(151, 151, 151);
+   text-decoration: none;
+}
+nav > ul > li > a:hover, nav > ul > li > a:active {
+   color: rgb(255, 64, 255);
+   text-decoration: underline;
 }
 
-
 /* List Styles */
-article#about_tss ul {
+article#about_tss ul li:first-of-type {
    list-style-image: url(runicon.png);
+}
+article#about_tss ul li:nth-of-type(2) {
+   list-style-image: url(bikeicon.png);
+}
+article#about_tss ul li:last-of-type {
+   list-style-image: url(swimicon.png);
 }
 
 article.syllabus ol {
