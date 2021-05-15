@@ -72,4 +72,11 @@ section#rightColumn > nav.horizontalNavigation li {
 }
 
 /* Footer Styles */
+footer {
+   clear: left;
+}
 
+footer > nav.verticalNavigation {
+   float: left;
+   width: 22%;
+}
