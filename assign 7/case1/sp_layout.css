@@ -31,13 +31,25 @@ body {
 
 /* Row Styles */
 
+.row {
+	clear: both;
+}
 
+.row::after {
+	clear: both;
+	content: "";
+	display: table;
+}
 
 
 
 /* Page Header Styles */
 
-
+header > img {
+	display: block;
+	width: 70%;
+	float: left;
+}
 
 
 
