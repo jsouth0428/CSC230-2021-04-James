@@ -101,12 +101,17 @@ ul#topics > li > img {
 
 
 /* HR Styles */
-
+hr {
+	width: 50%;
+}
 
 
 
 /* Customer Comment Styles */
-
+ul#comments {
+	width: 75%;
+	margin: 40px auto;
+}
 
 
 /* Footer Styles */
