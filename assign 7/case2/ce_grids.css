@@ -14,12 +14,22 @@
 
 
 /* Grid Rows Styles */
-
-
+div.row {
+	width: 100%;
+	margin: both;
+	clear: both;
+}
+div.row::after {
+	content: "";
+	display: table;
+	clear: both;
+}
 
 
 /* Grid Columns Styles */
-
+div[class^='column'] {
+	float:left;
+}
 
 
 
