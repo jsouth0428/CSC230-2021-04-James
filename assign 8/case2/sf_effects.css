@@ -60,7 +60,7 @@ section#center article {
 
 /* Blockquote Styles */
 blockquote {
-	background-image: url(../images/sf_speech.png);
+	background-image: url(../case2/sf_speech.png);
 	background-repeat: cover;
 	background-size: 100% 100%;
 	filter: drop-shadow(5px 5px 10px rgb(51,51,51));
