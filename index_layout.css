@@ -2,10 +2,10 @@ body {
 	margin-left: auto;
 	margin-right: auto;
 	margin-bottom: auto;
-	margin-top: 0px;
-	max-width: 960px;
+	margin-top: 11px;
+	max-width: 955px;
 	min-width: 640px;
-	width: 99%;
+	width: 100%;
 			}
 
  h1, img, ul {
@@ -15,7 +15,7 @@ body {
 	}
 
 	h2 {
-		padding: 0px;
+		padding: 1px;
 		margin-right: 0px;
 		margin-bottom: 0px;
 		margin-top: 0px;
@@ -31,7 +31,7 @@ h3, p {
 
 ul {
 	margin-bottom: 12px;
-	margin-top: 5px;
+	margin-top: 1px;
 }
 
 
