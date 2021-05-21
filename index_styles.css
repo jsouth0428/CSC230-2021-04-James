@@ -11,8 +11,9 @@
    }
 
 @font-face {
-   font-family: 'FlyBoy';
+   font-family: 'FlyBoyBB';
    src: url('FlyBoyBB.ttf') format('truetype');
+  
    }
 
 
@@ -26,13 +27,16 @@ body {
    background-color: rgb(156, 199, 220);
    opacity: 75%;
 }
-h2 {font-family: 'FlyBoy', Regular;
+h2 {font-family: 'FlyBoyBB';
    font-size: 3.0em;
 }
 
 body > img {
    border: 8px double rgb(51, 51, 51);
 }
+li {font-family:'FlyBoyBB';
+}
+
 
 
 /* Navigation Styles */
