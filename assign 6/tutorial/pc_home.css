@@ -29,6 +29,9 @@ body > header > img {
    width: 100%;
 }
 
+body > header > nav.horizontalNavigation li {
+   width: 20%;
+}
 
 
 /* Horizontal Navigation Styles */
