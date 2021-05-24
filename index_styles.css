@@ -6,8 +6,8 @@
    }
 
 @font-face {
-   font-family: 'FlyBoy';
-   src: url('FlyBoyBB.ttf') format('truetype');
+   font-family: 'Neue';
+   src: url('BebasNeue-Regular.ttf') format('truetype');
    }
 
 @font-face {
@@ -34,7 +34,7 @@ h2 {font-family: 'FlyBoyBB';
 body > img {
    border: 8px double rgb(51, 51, 51);
 }
-li {font-family:'FlyBoyBB';
+li {font-family:'Neue';
 }
 
 
