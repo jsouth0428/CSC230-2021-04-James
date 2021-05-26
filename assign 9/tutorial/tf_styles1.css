@@ -144,10 +144,43 @@ body > footer {
 }
 
 /* Pulldown Menu Styles */
-
-
-
+ul.submenu {
+   display: none;
+}
+a.submenuTitle:hover+ul.submenu, ul.submenu:hover {
+   display: block;
+}
 
 /* New Styles Added Below */
 
+/* ================================
+   Mobile Styles: 0px to 480px
+   ================================
+*/
+@media only screen and (max-width: 480px) {
 
+   nav.horizontal a {
+      font-size: 1.5em;
+      line-height: 2.2em;
+   }
+   aside {
+      display: none;
+   }
+}
+
+
+/* ================================
+   Tablet Styles: 481px and greater
+   ================================
+*/
+@media only screen and (min-width: 481px) {
+
+}
+
+/* =================================
+   Desktop Styles: 769px and greater
+   =================================
+*/
+@media only screen and (min-width: 769px) {
+
+}
