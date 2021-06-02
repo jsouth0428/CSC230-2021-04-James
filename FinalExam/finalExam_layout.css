@@ -1,9 +1,16 @@
 html {
 	background-color: red;
 }
+/*Color palletes 
+$copper: rgba(190, 124, 77, 1);
+$dark-red: rgba(146, 20, 12, 1);
+$jet: rgba(53, 50, 56, 1);
+$cedar-chest: rgba(190, 90, 56, 1);
+$pale-silver: rgba(193, 180, 174, 1);
+
  /* Page Body Styles */
  body {
-    background-color: #03a85b;
+    background-color: rgba(190, 124, 77, 1);
     line-height: 1;
     font-family: Verdana, Tacoma, Helvetica;
     font-size: 16pt;
@@ -17,7 +24,7 @@ html {
     color: black;
     width: 85%;
     margin: auto;
-    background-color: #03a85b; 
+    background-color: rgba(53, 50, 56, 1);; 
 }
 header h1{
     font-size: 36pt;
@@ -97,11 +104,19 @@ article{
 
 /* Navigation List Styles */
 
-ul {
-	margin-bottom: 12px;
-	margin-top: 1px;
+section table{
+    width: 100%;
 }
 
+section table tr th{
+    text-align: center;
+    background-color:rgba(255, 0, 0, 0.562);
+    color: white;
+}
+
+section table tr td{
+    font-size: 16px;
+}
 
 /* Section Styles */
 
