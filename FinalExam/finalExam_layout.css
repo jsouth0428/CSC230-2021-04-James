@@ -2,35 +2,99 @@ html {
 	background-color: red;
 }
  /* Page Body Styles */
-body {
-	margin-left: auto;
-	margin-right: auto;
-	margin-bottom: auto;
-	margin-top: 11px;
-	max-width: 955px;
-	min-width: 640px;
-	width: 100%;
-			}
-
- h1, img, ul {
-	 margin-left: 15px;
-	 margin-top: 15px;
-	 margin-right: 15px;
-	}
-
-	h2 {
-		padding: 1px;
-		margin-right: 0px;
-		margin-bottom: 0px;
-		margin-top: 0px;
-		margin-left: 15px;
-	}
-
-h3, p {
-	margin-left: 15px;
-	margin-bottom: 0px;
-	margin-top: 0px;
+ body {
+    background-color: #03a85b;
+    line-height: 1;
+    font-family: Verdana, Tacoma, Helvetica;
+    font-size: 16pt;
+    color: black;
+    width: 85%;
+    margin: auto;
+ }
+ body {
+    font-family: Verdana, Tacoma, Helvetica;
+    font-size: 16pt;
+    color: black;
+    width: 85%;
+    margin: auto;
+    background-color: #03a85b; 
 }
+header h1{
+    font-size: 36pt;
+    margin: 35px 0px 0px;
+    padding-top: 15px;
+    padding-left: 15px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    background-color: #000000;
+    color: white;   
+}
+header h3{
+    font-size: 24pt;
+    margin: 0px;
+    padding-top: 0px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    padding-right: 0px;
+    background-color: #000000;
+    color: white;   
+}
+
+header .articlehead{
+    font-family: arial;
+    text-align: left;
+    letter-spacing: 2px;
+    margin: 0px;
+    font-size: 24pt;
+    text-align: center;
+    padding: 15px 0px 10px 15px;
+    background-color: #000000;
+}
+
+h3{
+    font-family: arial;
+    font-size: 16pt;
+    text-align: left;
+}
+
+p{
+    margin: 15px;
+    padding: 15px;
+}
+
+header nav#mainLinks{
+    width: 20%;
+    height: 1240px;
+    float: left;
+    position: relative;
+    background-color: #000000;
+    list-style: none;
+    list-style-image: none;
+}
+
+
+nav#mainLinks ul li {
+    /* float: left; */	
+    list-style: none;   
+}
+nav#mainLinks ul li a {
+    color: white;	
+    height: 2.5em;	
+    line-height: 2.5em;	
+    text-decoration: none;
+}
+nav#mainLinks a:link, nav#mainLinks a:visited {
+    color: white;
+} 
+nav#mainLinks a:hover, nav#mainLinks a:active {
+    color: black;
+} 
+article{
+    float: right;
+    width: 80%;
+    background-color: #eb3131;
+}
+
 /* Navigation List Styles */
 
 ul {
